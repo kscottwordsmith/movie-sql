@@ -112,7 +112,8 @@ WHERE
 -- Order the previous objective by newest to oldest
 SELECT 
 	title,
-	rating
+	rating,
+	`timestamp`
 FROM
 	movies as m
 LEFT JOIN
